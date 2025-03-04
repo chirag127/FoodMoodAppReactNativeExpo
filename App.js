@@ -10,7 +10,7 @@ import {
 import * as Location from "expo-location";
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:3000"; // Replace with actual backend
+const API_URL = "http://127.0.0.1:3000/"; // Replace with actual backend
 
 export default function App() {
     const [mood, setMood] = useState("");
